@@ -25,6 +25,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./Personal-ProgrammerApp/server
 
       - name: Run tests
         run: npm test
+        working-directory: ./Personal-ProgrammerApp/server
